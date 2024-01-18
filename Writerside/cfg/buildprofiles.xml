@@ -1,0 +1,21 @@
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+    <variables>
+        <primary-color>blueberry</primary-color>
+        <custom-favicons>favicon.png</custom-favicons>
+        <header-logo>logo.png</header-logo>
+        <product-web-url>https://github.com/PI-ITBA</product-web-url>
+        <download-title>Consultas</download-title>
+        <download-page>https://github.com/PI-ITBA/2024_01/issues</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+    <footer>
+        <copyright>72.31 Programación Imperativa 2024</copyright>
+        <link href="https://github.com/PI-ITBA/2024_01/issues">Consultas</link>
+    </footer>
+</buildprofiles>

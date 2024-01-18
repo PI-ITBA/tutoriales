@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Tutoriales" id="Start-Page" help-id="Section-Starting-Page">
+
+    <section-starting-page>
+        <title> Tutoriales</title>
+        <description>
+            Bienvenido al sitio de tutoriales para la materia 72.31 Programación Imperativa.
+        </description>
+
+        <spotlight>
+            <a href="" type="bug"
+               summary="Tutorial 1">Tutorial 1</a>
+            <a href="" type="cross-check"
+               summary="Tutorial 2">Tutorial 2</a>
+        </spotlight>
+
+        <primary>
+            <title>Instalación de GCC</title>
+            <a href="" type="development"
+               summary="Tutorial 3">Tutorial 3</a>
+            <a href="" type="mixed"
+               summary="Tutorial 4">Tutorial 4</a>
+        </primary>
+
+        <secondary>
+            <title>Consultas</title>
+            <a href="https://github.com/POO-ITBA/2024_01/issues" type="support"
+               summary="https://github.com/POO-ITBA/2024_01/issues">Issues en GitHub</a>
+        </secondary>
+
+    </section-starting-page>
+</topic>
