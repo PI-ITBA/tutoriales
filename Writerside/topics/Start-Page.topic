@@ -36,12 +36,20 @@
 
         <misc>
             <cards>
+                <title>Apuntes</title>
+                <a href="https://docs.google.com/document/d/1UTOX8g4bB9GbbTipECEavlQuZct6wdeEbgPo6cQp-Rs/edit?usp=sharing" type="filtering"
+                   summary="Sistemas Posicionales de Numeración">Sistemas de Numeración</a>
+                <a href="https://docs.google.com/document/d/1-xe6ERwB0OU9m1x_zf3zJU-DJbollOKGa27T5gkCNco/edit?usp=sharing" type="check-list"
+                   summary="Principales reglas de estilo a contemplar">Reglas de Estilo</a>
+                <a href="https://drive.google.com/file/d/1cb6nsxhfHizYH1S-ZDF6XpnAT_EFMZAx/view?usp=sharing" type="container"
+                   summary="Variables y punteros: intuición, usando cajitas">Variables y Punteros</a>
+            </cards>
+
+            <cards>
                 <title>Consultas</title>
                 <a href="https://github.com/PI-ITBA/2024_01/issues" type="support"
                    summary="https://github.com/PI-ITBA/2024_01/issues">Issues en GitHub</a>
             </cards>
-
         </misc>
-
     </section-starting-page>
 </topic>
