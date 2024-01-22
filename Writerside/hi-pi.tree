@@ -11,6 +11,4 @@
         <toc-element topic="gcc-linux.md"/>
         <toc-element topic="gcc-windows.md"/>
     </toc-element>
-    <toc-element topic="clion-pampero.md"/>
-    <toc-element topic="cmake.md"/>
 </instance-profile>
