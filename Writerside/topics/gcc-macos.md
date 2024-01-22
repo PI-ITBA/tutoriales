@@ -35,6 +35,7 @@ Este archivo contiene los comandos para descargar e instalar sobre una imagen de
 de **GCC** y demás utilitarios necesarios por **CLion**:
 
 <code-block lang="docker">
+<![CDATA[
 FROM ubuntu:20.04
 
 RUN DEBIAN_FRONTEND="noninteractive" apt-get update && apt-get -y install tzdata
@@ -59,6 +60,7 @@ tar \
 python \
 python-dev \
 && apt-get clean
+]]>
 </code-block>
 
 Con la aplicación Docker en ejecución abrir la **Terminal** de macOS y navegar al directorio donde se encuentra el archivo
@@ -156,12 +158,14 @@ De vuelta en el proyecto editar el archivo `CMakeLists.txt` para que se vea así
 del proyecto que definió más arriba)
 
 <code-block lang="cmake">
+ <![CDATA[
 cmake_minimum_required(VERSION 3.16)
 project(pi C)
 
 set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 
 add_executable(pi main.c)
+]]>
 </code-block>
 
 En la sección

@@ -69,6 +69,7 @@ localmente) y otro que utilice la Toolchain Remote Host (el GCC de Pampero).
 
 Por ejemplo llamamos Docker
 a un Profile además del Profile de nombre Pampero mencionado más arriba
+
 <img src="clion-pampero-5.png" alt="CLion Pampero 5" width="600"/>
 </tip>
 

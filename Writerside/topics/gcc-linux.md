@@ -103,12 +103,14 @@ De vuelta en el proyecto editar el archivo `CMakeLists.txt` para que se vea así
 del proyecto que definió más arriba)
 
 <code-block lang="cmake">
+<![CDATA[
 cmake_minimum_required(VERSION 3.27)
 project(pi C)
 
 set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 
 add_executable(pi main.c)
+]]>
 </code-block>
 
 En la sección 
