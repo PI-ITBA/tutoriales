@@ -140,6 +140,21 @@ En el campo **Image** asegurarse de elegir
 Presionar
 <shortcut>Apply</shortcut> para guardar los cambios.
 
+Ahora ir a la sección
+<shortcut>CMake</shortcut> del menú izquierdo de 
+<shortcut>Build, Execution, Deployment</shortcut>. 
+Asegurarse de contar con al menos un profile que tenga en el campo **Toolchain**
+el ítem **Docker** creado en el paso anterior. 
+Asegurarse que el **Build type** del perfil sea **Debug**. 
+De haber realizado un cambio presionar 
+<shortcut>Apply</shortcut>.
+
+<tip>En caso de ya contar con un Profile asegurarse que el que utiliza
+la Toolchain Docker recién configurada esté primero en la lista.
+</tip>
+
+<img src="clion-mac-6a.png" alt="CLion Mac 6A" width="600"/>
+
 Siguiendo en la misma ventana, ahora en el menú izquierdo bajo la misma sección
 <shortcut>Build, Execution, Deployment</shortcut>
 ir a
