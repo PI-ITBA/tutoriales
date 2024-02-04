@@ -48,6 +48,11 @@ mejor organización.
 <img src="wsl-vs-code-6.png" alt="Remote Explorer WSL folder" width="100%" />
 <img src="wsl-vs-code-7.png" alt="Remote Explorer WSL folder" width="600" />
 
+<tip>
+Puede ser que aparezca un popup solicitando permisos para continuar. Aceptar.
+<img src="wsl-vs-code-9.png" alt="Trust the Authors popup" width="600" />
+</tip>
+
 Por último, mi setup de VS Code conectado a WSL quedó así:
 <img src="wsl-vs-code-8.png" alt="Remote Explorer WSL VS Code setup" width="100%" />
 
