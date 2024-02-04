@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="10281810">
+        <description>Created after removal of "Uso de VS Code con GCC en Linux" from Tutoriales</description>
+        <accepts>vscode-linux.html</accepts>
+    </rule>
+    <rule id="5f9b0b89">
+        <description>Created after removal of "Uso de VS Code con GCC en macOS" from Tutoriales</description>
+        <accepts>vscode-macos.html</accepts>
+    </rule>
+    <rule id="2ff4118">
+        <description>Created after removal of "Uso de VS Code con GCC en Windows" from Tutoriales</description>
+        <accepts>vscode-windows.html</accepts>
+    </rule>
+</rules>
