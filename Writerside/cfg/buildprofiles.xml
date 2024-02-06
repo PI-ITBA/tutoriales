@@ -13,7 +13,7 @@
         <variables>
             <noindex-content>true</noindex-content>
             <algolia-id>QPPEAGX4QO</algolia-id>
-            <algolia-index>tutoriales</algolia-index>
+            <algolia-index>Tutoriales</algolia-index>
             <algolia-api-key>1d2ea1aa6b5a3d0ec62e72ea6a1eec02</algolia-api-key>
             <web-root>https://pi-itba.github.io/tutoriales/</web-root>
         </variables>
