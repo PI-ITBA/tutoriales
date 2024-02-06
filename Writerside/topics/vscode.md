@@ -2,13 +2,14 @@
 
 ## Instalación de VS Code
 
-Para instalar **VS Code** acceder a su <a href="https://code.visualstudio.com/#alt-downloads" target="_blank">sitio
-oficial</a> y descargar el instalador para su sistema operativo.
+Para instalar **VS Code** acceder a su 
+<a href="https://code.visualstudio.com/#alt-downloads" target="_blank">
+sitio oficial</a> y descargar el instalador para su sistema operativo.
 
 ## Uso de VS Code con GCC
 
 El uso de **VS Code** con **GCC** es idéntico entre los distintos sistemas operativos. Solamente debemos tener
-instalado **GCC** en el sistema operativo (ver primeras secciones):
+instalado **GCC** en el sistema operativo (**Ver las primeras secciones antes de Registro y Licencia**):
 
 - <a href="gcc-macos.md">Instalación de GCC en **macOS**</a>
 
@@ -27,5 +28,7 @@ Las mismas se pueden acceder mediante:
 3. El atajo `Ctrl + Shift + X`.
 
 Algunas extensiones recomendadas son:
-- **C/C++**: Permite la edición de código en C/C++. <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">Link</a>
-- **Prettier**: Formatea el código de forma automática. <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">Link</a>
+- **C/C++**: Permite la edición de código en C/C++. 
+<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">Link</a>
+- **Prettier**: Formatea el código de forma automática. 
+<a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">Link</a>

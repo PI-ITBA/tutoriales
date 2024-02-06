@@ -1,3 +1,0 @@
-# Uso de VS Code con GCC en Windows
-
-Start typing here...

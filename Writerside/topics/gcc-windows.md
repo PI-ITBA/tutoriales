@@ -56,48 +56,17 @@ Complete un usuario, contraseña y luego repita la contraseña ingresada.
 
 <img src="clion-win-3.PNG" alt="CLion Win 3" width="600"/>
 
-### Uso de apt-get
+### Uso de apt-get en la consola de Ubuntu
 
-Para instalar la versión estable más reciente de **GCC** y demás utilitarios necesarios por **CLion** ejecute 
-en la consola de la aplicación **Ubuntu** los siguientes comandos:
-
-<code-block lang="console">
-sudo apt-get update
-</code-block>
-
-<code-block lang="console">
-sudo apt-get install -y build-essential gcc g++ gdb clang make ninja-build cmake autoconf automake libtool valgrind locales-all dos2unix rsync tar python2 python2-dev
-</code-block>
-
-Al finalizar la instalación verificar que al invocar a
-
-<code-block lang="console">
-gcc --version
-</code-block>
-
-se obtiene una salida similar a la siguiente:
-
-<code-block lang="plain text">
-gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
-Copyright (C) 2021 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions. There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-</code-block>
+<include from="gcc-linux.md" element-id="apt-get-snippet"/>
 
 ## Registro y Licencia
 
-**CLion** requiere una licencia. Los alumnos pueden registrarse en
-<a href="https://www.jetbrains.com/shop/eform/students">**Productos JetBrains para el aprendizaje**</a>
-con su mail **@itba.edu.ar** y así obtener una **licencia gratuita** para utilizar CLion y demás aplicaciones
-de JetBrains de forma gratuita.
+<include from="gcc-macos.md" element-id="clion-registro-snippet"/>
 
 ## Instalación de CLion usando ToolBox App
 
-Para instalar **CLion** recomendamos utilizar **Toolbox App**.
-
-Puede consultar el siguiente tutorial:
-
-<a href="https://www.jetbrains.com/help/clion/installation-guide.html#toolbox">Install using the Toolbox App</a>.
+<include from="gcc-macos.md" element-id="clion-toolbox-snippet"/>
 
 ## Configuración de CLion
 
@@ -213,11 +182,7 @@ El programa se ejecutará y podrá ver la correspondiente salida en la sección 
 
 <img src="clion-win-12.PNG" alt="CLion Win 12" width="600"/>
 
-<note>
-    <p>
-        Listo! Ya cuenta con GCC y CLion funcionando correctamente.
-    </p>
-</note>
+<include from="gcc-macos.md" element-id="success-gcc-clion"/>
 
 <tip>Para más información sobre <b>WSL en CLion</b> consultar
 <a href="https://www.jetbrains.com/help/clion/how-to-use-wsl-development-environment-in-product.html#wsl-tooclhain">
