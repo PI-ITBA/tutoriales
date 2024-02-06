@@ -19,7 +19,10 @@ instalado **GCC** en el sistema operativo (ver primeras secciones):
 ## Extensiones recomendadas
 **VS Code** permite extender su funcionalidad mediante la instalación de extensiones. 
 Las mismas se pueden acceder mediante: 
-1. El ícono de la barra lateral <img src="vscode-terminal-2.png" alt="Extensiones de VS Code" width="100%"/>
+1. El ícono de la barra lateral
+
+<img src="vscode-terminal-2.png" alt="Extensiones de VS Code" width="50"/>
+
 2. El menú `View` -> `Extensions`.
 3. El atajo `Ctrl + Shift + X`.
 
