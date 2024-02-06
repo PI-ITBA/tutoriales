@@ -22,7 +22,7 @@ Para ello clickeamos el nuevo ícono de la barra lateral:
 Continuando, abrir el menu desplegable y seleccionar la opción que mencione a `WSL`, en mi caso `WSL Targets`.
 _Ignorar las otras opciones_.
 
-<img src="wsl-vs-code-4.png" alt="Remote Explorer WSL Target" width="100%" />
+<img src="wsl-vs-code-4.png" alt="Remote Explorer WSL Target" width="600" />
 
 <tip>
 En caso que no aparezca el menú desplegable, verificar que dentro de la lista inferior aparezca una distribución (es decir una opción) con la palabra <strong>Ubuntu</strong>. 
@@ -45,7 +45,8 @@ mejor organización.
 <a href="wsl.md#via-windows-explorer-interfaz-gr-fica">Cómo crear carpetas dentro de WSL desde Windows.</a>
 </tip>
 
-<img src="wsl-vs-code-6.png" alt="Remote Explorer WSL folder" width="100%" />
+<img src="wsl-vs-code-6.png" alt="Remote Explorer WSL folder" width="600" />
+
 <img src="wsl-vs-code-7.png" alt="Remote Explorer WSL folder" width="600" />
 
 <tip>
@@ -54,7 +55,8 @@ Puede ser que aparezca un popup solicitando permisos para continuar. Aceptar.
 </tip>
 
 Por último, mi setup de VS Code conectado a WSL quedó así:
-<img src="wsl-vs-code-8.png" alt="Remote Explorer WSL VS Code setup" width="100%" />
+
+<img src="wsl-vs-code-8.png" alt="Remote Explorer WSL VS Code setup" width="600" />
 
 Ahora podemos utilizar VS Code para programar, crear archivos y carpetas, y estos se van a guardar en WSL, entre otras
 tantas funcionalidades.

@@ -11,7 +11,7 @@ los mismos comandos. VS Code utiliza la shell por defecto del sistema operativo.
 
 La misma se puede cambiar para que utilice una shell diferente.
 
-<img src="vscode-terminal-1.png" alt="Cambio de shell en VS Code" width="100%"/>
+<img src="vscode-terminal-1.png" alt="Cambio de shell en VS Code" width="600"/>
 
 <tip>
 <a href="https://superuser.com/questions/144666/what-is-the-difference-between-shell-console-and-terminal">
