@@ -1,5 +1,14 @@
 # Instalación y uso de VS Code con GCC
 
+<warning>
+
+Este tutorial cubre el uso de **VSCode para Windows y Linux**.
+
+Para los usuarios de **macOS** recomendamos consultar el 
+<a href="gcc-macos.md">tutorial de GCC y **CLion**.</a>
+
+</warning>
+
 ## Instalación de VS Code
 
 Para instalar **VS Code** acceder a su 
@@ -11,7 +20,9 @@ sitio oficial</a> y descargar el instalador para su sistema operativo.
 El uso de **VS Code** con **GCC** es idéntico entre los distintos sistemas operativos. Solamente debemos tener
 instalado **GCC** en el sistema operativo (**Ver las primeras secciones antes de Registro y Licencia**):
 
+<!---
 - <a href="gcc-macos.md">Instalación de GCC en **macOS**</a>
+-->
 
 - <a href="gcc-linux.md">Instalación de GCC en **Linux**</a>
 
