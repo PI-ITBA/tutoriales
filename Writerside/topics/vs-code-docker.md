@@ -43,6 +43,7 @@ Ahora debemos iniciar el **Docker Daemon**, para ello simplemente abrir **Docker
 
 Luego debemos abrir la carpeta que deseemos en **VS Code** y clickear `Ctrl` + `Shift` + `P`, o en su defecto acceder
 directamente via la barra superior, como se indica en la siguiente imagen
+
 <img src="docker-vs-code-4.png" alt="Comandos" width="600" />
 
 y escribir `dev containers open folder` para luego seleccionar la opción `Dev Containers: Open Folder in Container`.
@@ -79,7 +80,7 @@ Por último, no queremos añadir más configuraciones, por lo que seleccionamos 
 Finalmente, **VS Code** se conectará a **Docker** y abrirá la carpeta en el contenedor en cuestión, quedando
 nuestro setup de la siguiente forma
 
-<img src="docker-vs-code-12.png" alt="Conectado a contenedor Docker" width="100%" />
+<img src="docker-vs-code-12.png" alt="Conectado a contenedor Docker" width="600" />
 
 <note>
 Ahora podemos utilizar <strong>VS Code</strong> para programar, crear archivos y carpetas, y estos se van a guardar en el contenedor,
