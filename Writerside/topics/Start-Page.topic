@@ -6,7 +6,7 @@
        title="Tutoriales" id="Start-Page" help-id="Section-Starting-Page">
 
     <section-starting-page>
-        <title> Tutoriales</title>
+        <title>Tutoriales</title>
         <description>
             Bienvenido al sitio de tutoriales para la materia 72.31 Programación Imperativa.
         </description>
@@ -19,29 +19,48 @@
         </spotlight>
 
         <primary>
-            <title>CMake</title>
-            <a href="cmake.md" type="library"
-               summary="Para generar varios ejecutables en un mismo proyecto">Uso de CMakeLists.txt</a>
+            <title>VS Code</title>
+            <a href="vscode.md" type="library"
+               summary="">Instalación y uso de VS Code con GCC</a>
+            <a href="vscode-terminal.md" type="library"
+               summary="">Uso de la terminal integrada en VS Code</a>
+            <a href="vs-code-docker.md" type="library"
+               summary="">Instalación y uso de VS Code con Docker</a>
+            <a href="wsl-vs-code.md" type="library"
+               summary="">Instalación y uso de VS Code con WSL</a>
         </primary>
 
         <secondary>
-            <title>Más Tutoriales</title>
-            <a href="https://docs.google.com/document/d/1URfMThSgVHLWwVYSefj0rs6PhmaTQNMogw0BJ9wQisY/edit?usp=sharing" type="development"
-               summary="Conceptos básicos para el uso de la terminal">Tutorial básico sobre Linux y vi</a>
-            <a href="https://docs.google.com/document/d/1k9ZzmLBpJzIDAs9d-qgFBlS9vtNPwD7F4TwuU-dHbQk/edit?usp=sharing" type="mixed"
-               summary="Compilación desde la terminal">Uso de GCC</a>
-            <a href="https://docs.google.com/document/d/1bzgs_3ZgKBuJZVjiD5p1OIJXFrID6zO8jy5Jf6Fszk0/edit?usp=sharing" type="bug"
-               summary="Debugging desde la terminal">Uso de GDB</a>
+            <title>Otros Tutoriales</title>
+            <a href="wsl.md" type="library"
+               summary="">Pasaje de archivos entre WSL y Windows</a>
+            <a href="cmake.md" type="library"
+               summary="Para generar varios ejecutables en un mismo proyecto">Uso de CMakeLists.txt</a>
         </secondary>
 
         <misc>
             <cards>
+                <title>Más Tutoriales</title>
+                <a href="https://docs.google.com/document/d/1URfMThSgVHLWwVYSefj0rs6PhmaTQNMogw0BJ9wQisY/edit?usp=sharing"
+                   type="development"
+                   summary="Conceptos básicos para el uso de la terminal">Tutorial básico sobre Linux y vi</a>
+                <a href="https://docs.google.com/document/d/1k9ZzmLBpJzIDAs9d-qgFBlS9vtNPwD7F4TwuU-dHbQk/edit?usp=sharing"
+                   type="mixed"
+                   summary="Compilación desde la terminal">Uso de GCC</a>
+                <a href="https://docs.google.com/document/d/1bzgs_3ZgKBuJZVjiD5p1OIJXFrID6zO8jy5Jf6Fszk0/edit?usp=sharing"
+                   type="bug"
+                   summary="Debugging desde la terminal">Uso de GDB</a>
+            </cards>
+            <cards>
                 <title>Apuntes</title>
-                <a href="https://docs.google.com/document/d/1UTOX8g4bB9GbbTipECEavlQuZct6wdeEbgPo6cQp-Rs/edit?usp=sharing" type="filtering"
+                <a href="https://docs.google.com/document/d/1UTOX8g4bB9GbbTipECEavlQuZct6wdeEbgPo6cQp-Rs/edit?usp=sharing"
+                   type="filtering"
                    summary="Sistemas Posicionales de Numeración">Sistemas de Numeración</a>
-                <a href="https://docs.google.com/document/d/1-xe6ERwB0OU9m1x_zf3zJU-DJbollOKGa27T5gkCNco/edit?usp=sharing" type="check-list"
+                <a href="https://docs.google.com/document/d/1-xe6ERwB0OU9m1x_zf3zJU-DJbollOKGa27T5gkCNco/edit?usp=sharing"
+                   type="check-list"
                    summary="Principales reglas de estilo a contemplar">Reglas de Estilo</a>
-                <a href="https://drive.google.com/file/d/1cb6nsxhfHizYH1S-ZDF6XpnAT_EFMZAx/view?usp=sharing" type="container"
+                <a href="https://drive.google.com/file/d/1cb6nsxhfHizYH1S-ZDF6XpnAT_EFMZAx/view?usp=sharing"
+                   type="container"
                    summary="Variables y punteros: intuición, usando cajitas">Variables y Punteros</a>
             </cards>
 
