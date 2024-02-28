@@ -2,6 +2,8 @@
 
 ## Uso de apt-get
 
+<snippet id="apt-get-snippet">
+
 Para instalar la versión estable más reciente de **GCC** y demás utilitarios necesarios por **CLion** ejecute los siguientes comandos:
 
 <code-block lang="console">
@@ -27,20 +29,15 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 </code-block>
 
+</snippet>
+
 ## Registro y Licencia
 
-**CLion** requiere una licencia. Los alumnos pueden registrarse en 
-<a href="https://www.jetbrains.com/shop/eform/students">**Productos JetBrains para el aprendizaje**</a>
-con su mail **@itba.edu.ar** y así obtener una **licencia gratuita** para utilizar CLion y demás aplicaciones
-de JetBrains de forma gratuita.
+<include from="gcc-macos.md" element-id="clion-registro-snippet"/>
 
 ## Instalación de CLion usando ToolBox App
 
-Para instalar **CLion** recomendamos utilizar **Toolbox App**.
-
-Puede consultar el siguiente tutorial:
-
-<a href="https://www.jetbrains.com/help/clion/installation-guide.html#toolbox">Install using the Toolbox App</a>.
+<include from="gcc-macos.md" element-id="clion-toolbox-snippet"/>
 
 ## Configuración de CLion
 
@@ -131,8 +128,4 @@ El programa se ejecutará y podrá ver la correspondiente salida en la sección 
 
 <img src="clion-linux-6.png" alt="CLion Linux 6" width="600"/>
 
-<note>
-    <p>
-        Listo! Ya cuenta con GCC y CLion funcionando correctamente.
-    </p>
-</note>
+<include from="gcc-macos.md" element-id="success-gcc-clion"/>

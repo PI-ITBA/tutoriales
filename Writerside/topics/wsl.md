@@ -69,6 +69,6 @@ mediante el comando `cd`:
 cd /mnt/c/
 ```
 
-<img src="wsl-2.png" alt="WSL Terminal list Windows files" width="100%"/>
+<img src="wsl-2.png" alt="WSL Terminal list Windows files" width="600"/>
 
 Luego podemos mover archivos de Windows a WSL o viceversa mediante el comando `cp` o `mv`.

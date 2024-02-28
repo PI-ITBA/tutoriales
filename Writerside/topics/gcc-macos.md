@@ -74,18 +74,26 @@ Una vez terminado ya cuenta con la imagen de Ubuntu descargada.
 
 ## Registro y Licencia
 
+<snippet id="clion-registro-snippet">
+
 **CLion** requiere una licencia. Los alumnos pueden registrarse en
 <a href="https://www.jetbrains.com/shop/eform/students">**Productos JetBrains para el aprendizaje**</a>
 con su mail **@itba.edu.ar** y así obtener una **licencia gratuita** para utilizar CLion y demás aplicaciones
 de JetBrains de forma gratuita.
 
+</snippet>
+
 ## Instalación de CLion usando ToolBox App
+
+<snippet id="clion-toolbox-snippet">
 
 Para instalar **CLion** recomendamos utilizar **Toolbox App**.
 
 Puede consultar el siguiente tutorial:
 
 <a href="https://www.jetbrains.com/help/clion/installation-guide.html#toolbox">Install using the Toolbox App</a>.
+
+</snippet>
 
 ## Configuración de CLion
 
@@ -201,7 +209,7 @@ El programa se ejecutará y podrá ver la correspondiente salida en la sección 
 
 <img src="clion-mac-10.png" alt="CLion Mac 10" width="600"/>
 
-<note>
+<note id="success-gcc-clion">
     <p>
         Listo! Ya cuenta con GCC y CLion funcionando correctamente.
     </p>
