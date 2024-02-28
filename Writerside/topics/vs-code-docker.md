@@ -87,7 +87,16 @@ Ahora podemos utilizar <strong>VS Code</strong> para programar, crear archivos y
 así como ejecutar el código en el mismo.
 </note>
 
+<warning>
+<strong>Siempre que se desee utilizar VS Code con Docker se debe abrir la aplicación Docker Desktop previamente.</strong>
+</warning>
+
 <tip>
 La próxima vez que abramos <strong>VS Code</strong> en la misma carpeta, se conectará automáticamente al contenedor. Es decir, no es necesario
 realizar este proceso nuevamente.
 </tip>
+
+<warning>
+Para conectarse nuevamente a un contenedor, simplemente abrir la carpeta en uno mediante el comando <code>dev containers open folder</code>.
+Para desconectarse, clickear el ícono azul de la esquina inferior izquierda y seleccionar <code>Close Remote Connection</code>.
+</warning>

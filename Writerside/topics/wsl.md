@@ -8,6 +8,8 @@ WSL (Windows Subsystem for Linux) es una capa de compatibilidad para correr apli
 
 - <a href="https://learn.microsoft.com/es-es/windows/wsl/compare-versions">Comparación de WSL 1 y WSL 2</a>
 
+- <a href="gcc-windows.md">Cómo instalar WSL</a>
+
 </tip>
 
 Lo principal a entender es que WSL es **otro sistema operativo** que corre **dentro de Windows**. Lo que significa que
