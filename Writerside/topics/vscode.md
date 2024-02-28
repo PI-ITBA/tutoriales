@@ -1,13 +1,8 @@
 # Instalación y uso de VS Code con GCC
 
-<warning>
-
-Este tutorial cubre el uso de **VSCode para Windows y Linux**.
-
-Para los usuarios de **macOS** recomendamos consultar el 
-<a href="gcc-macos.md">tutorial de GCC y **CLion**.</a>
-
-</warning>
+VS Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS. Permite añadir extensiones
+para
+ampliar su funcionalidad, como por ejemplo, la edición y autocompletado de código en C/C++.
 
 ## Instalación de VS Code
 
@@ -27,6 +22,20 @@ instalado **GCC** en el sistema operativo (**Ver las primeras secciones antes de
 - <a href="gcc-linux.md">Instalación de GCC en **Linux**</a>
 
 - <a href="gcc-windows.md">Instalación de GCC en **Windows**</a>
+
+## Uso de VS Code en diferentes sistemas operativos
+
+El uso de **VS Code** es idéntico entre los distintos sistemas operativos, no debiera haber complicaciones. Las únicas
+excepciones a esta regla son **Windows sin WSL** y **macOS con procesadores M1 en adelante**, donde el flag `-fsanitize=address`
+no detecta leaks de memoria.
+
+### macOS con procesadores M1 en adelante
+
+<a href="vs-code-docker.md">Debemos utilizar **Docker** para compilar y ejecutar el código.</a>
+
+### Windows sin WSL
+
+<a href="wsl.md">Instalar **WSL** en Windows.</a>
 
 ## Extensiones recomendadas
 **VS Code** permite extender su funcionalidad mediante la instalación de extensiones. 
