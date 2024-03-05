@@ -16,6 +16,13 @@ Lo principal a entender es que WSL es **otro sistema operativo** que corre **den
 tiene otro filesystem, otro conjunto de programas, y librerías, por ende, los cambios realizados en uno no afectan al
 otro.
 
+<snippet id="wsl-install-warning">
+<warning>
+Para continuar con este tutorial es <strong>necesario tener instalado WSL</strong>. En caso de no tenerlo instalado, clickear
+<a href="gcc-windows.md">acá</a> para ver cómo hacerlo.
+</warning>
+</snippet>
+
 ## Pasaje de archivos entre Windows y WSL
 
 Se pueden acceder a los archivos de Windows desde WSL y viceversa.
@@ -46,7 +53,8 @@ materia, yo utilicé `PI`.
 
 <img src="wsl-7.png" alt="Acceso al filesystem de Ubuntu" width="600"/>
 
-Luego abriendo otra ventana con el explorador de archivos de Windows se pueden pasar archivos de Windows a WSL y viceversa
+Luego abriendo otra ventana con el explorador de archivos de Windows se pueden pasar archivos de Windows a WSL y
+viceversa
 mediante `copiar` y `pegar` o directamente `arrastrar y soltar`.
 
 ### Via terminal WSL

@@ -2,6 +2,8 @@
 
 Para acceder al filesystem de WSL mediante VS Code hay dos formas de hacerlo.
 
+<include from="wsl.md" element-id="wsl-install-warning" />
+
 ## Acceso a WSL remoto
 
 Para empezar debemos instalar dos extensiones:
@@ -37,6 +39,12 @@ Ahora, buscar la distribución a la que queremos conectarnos y clickear el ícon
 <tip>
 Prestar atención a los popups de la esquina inferior derecha. Si indican algo acerca de instalar un addon de WSL, hacerlo.
 </tip>
+
+<warning>
+Si no aparece la distribución de Linux a la que queremos conectarnos, verificar que esté instalada.
+
+Para instalar una distribución de Linux en WSL (Ubuntu en particular), clickear <a href="gcc-windows.md" anchor="instalaci-n-de-ubuntu">acá</a>.
+</warning>
 
 Lo único que nos falta hacer es abrir la carpeta que deseemos. En mi caso creé una previamente llamada `PI` para una
 mejor organización.

@@ -1,8 +1,10 @@
 # Instalación de GCC y CLion en Windows
 
-Para el uso de **GCC** en **Windows** es necesario una imagen de Linux a través de **Windows Subsystem for Linux (WSL)**.
+Para el uso de **GCC** en **Windows** es necesario una imagen de Linux a través de **Windows Subsystem for Linux (WSL)
+**.
 De esta forma podremos utilizar GCC como si estuviéramos utilizando Linux.
 Para ello necesitamos:
+
 - Instalar **Windows Susbsytem for Linux (WSL)**
 - Instalar una **imagen de Ubuntu** para WSL
 - **Configurar CLion** para que en cada ejecución utilice esa imagen descargada
@@ -15,12 +17,12 @@ Puede ser que necesite activar la funcionalidad de virtualización desde el BIOS
 
 ## Instalación de WSL
 
-Instalar WSL desde la tienda:  
+Instalar WSL desde la tienda:
 <a href="https://apps.microsoft.com/detail/9P9TQF7MRM4R?hl=es-AR">**WSL en Microsoft Store**</a>
 
 <img src="clion-win-1.PNG" alt="CLion Win 1" width="600"/>
 
-La instalación requerirá los permisos de administrador. 
+La instalación requerirá los permisos de administrador.
 
 Luego abrir la **Terminal** de Windows y ejecutar el siguiente comando
 
@@ -48,6 +50,40 @@ Instalar Ubuntu desde la tienda:
 
 Finalizada la instalación abrir la aplicación **Ubuntu**.
 
+## Solución de errores
+
+Pueden surgir errores al ejecutar **WSL**, y para solucionarlos recomendamos seguir los siguientes pasos:
+
+1. Verificar que está activada la funcionalidad de virtualización en el BIOS (el acceso al BIOS varía según el
+   fabricante de la PC).
+2. Verificar que estén activadas las funcionalidades de virtualización y WSL en Windows. Para ello abrir el **Panel de
+   Control**, luego **Programas** y **Características** y finalmente **Activar o desactivar las características de
+   Windows**. Otra
+   forma de acceder a esta ventana es presionando la tecla de Windows y escribiendo **Características** o **Features**,
+   dependiendo del idioma del sistema operativo.
+
+   <img src="clion-win-13.PNG" alt="Open Windows Features" width="600"/>
+
+   Asegurarse de que esté tildada la opción **Plataforma de máquina virtual** y **Subsistema de Windows para Linux**. En
+   caso de tener el sistema operativo en inglés, las opciones son **Virtual Machine Platform** y **Windows Subsystem for
+   Linux**.
+
+   <img src="clion-win-14.PNG" alt="Toggle Windows Features" width="600"/>
+
+   Finalmente, reiniciar la PC.
+3. Si el error persiste, abrir **PowerShell** como administrador y ejecutar el siguiente comando:
+
+   <code-block lang="console">
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   </code-block>
+
+   Luego reiniciar la PC.
+
+<warning>
+En caso de que el error persista, consultar la documentación oficial de Microsoft buscando el error específico y enviar
+una consulta vía mail a la cátedra adjuntando el error en cuestión.
+</warning>
+
 ### Creación de usuario
 
 Luego de abrir la aplicación Ubuntu y esperar unos instantes verá que la terminal le solicita **crear un usuario**.
@@ -60,7 +96,13 @@ Complete un usuario, contraseña y luego repita la contraseña ingresada.
 
 <include from="gcc-linux.md" element-id="apt-get-snippet"/>
 
-## Registro y Licencia
+## Registro y Licencia de CLion
+
+<warning>
+A continuación se detalla el proceso de registro y licencia de <strong>CLion</strong>, el mismo
+NO está vinculado a la instalación de <strong>GCC</strong>. <br />
+<strong>En caso de querer utilizar otro IDE o editor de texto NO es necesario continuar con este tutorial</strong>.
+</warning>
 
 <include from="gcc-macos.md" element-id="clion-registro-snippet"/>
 

@@ -38,7 +38,6 @@ Instalar las siguientes extensiones en **VS Code**:
 
 <img src="docker-vs-code-3.png" alt="Dev Containers Extension" width="600" />
 
-
 Ahora debemos iniciar el **Docker Daemon**, para ello simplemente abrir **Docker Desktop**.
 
 Luego debemos abrir la carpeta que deseemos en **VS Code** y clickear `Ctrl` + `Shift` + `P`, o en su defecto acceder
@@ -50,15 +49,24 @@ y escribir `dev containers open folder` para luego seleccionar la opción `Dev C
 
 <img src="docker-vs-code-5.png" alt="Open folder" width="600" />
 
-En mi caso la carpeta en cuestión se llama `PI-WINDOWS` y tiene un archivo llamado `test.txt`.
+En mi caso la carpeta en cuestión se llama `PI-WINDOWS` y tiene un archivo llamado `test.txt`. <em>Esto no significa que
+deba llamarse de esa forma y mucho menos que deba tener un archivo con ese nombre, es simplemente un ejemplo.</em>
 
 Seleccionar la primer opción
 
 <img src="docker-vs-code-6.png" alt="Archivo de configuración" width="600" />
 
+<warning>
+Puede que no aparezca el menú desplegable, pasar al siguiente paso.
+</warning>
+
 Seleccionar la primer opción nuevamente
 
 <img src="docker-vs-code-7.png" alt="Template" width="600" />
+
+<warning>
+Puede que no aparezca dicha opción sino todas las opciones disponibles directamente, en ese caso pasar al siguiente paso.
+</warning>
 
 Buscar `c++` y seleccionar la opción `C++`
 
