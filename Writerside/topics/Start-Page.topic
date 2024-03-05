@@ -21,19 +21,19 @@
         <primary>
             <title>VS Code</title>
             <a href="vscode.md" type="library"
-               summary="">Instalación y uso de VS Code con GCC</a>
+               summary="Para todos los sistemas operativos">Instalación y uso de VS Code con GCC</a>
             <a href="vscode-terminal.md" type="library"
-               summary="">Uso de la terminal integrada en VS Code</a>
+               summary="Cómo abrir la terminal">Uso de la terminal integrada en VS Code</a>
             <a href="vs-code-docker.md" type="library"
-               summary="">Instalación y uso de VS Code con Docker</a>
+               summary="Para todos los sistemas operativos">Instalación y uso de VS Code con Docker</a>
             <a href="wsl-vs-code.md" type="library"
-               summary="">Instalación y uso de VS Code con WSL</a>
+               summary="Exclusivo para Windows">Instalación y uso de VS Code con WSL</a>
         </primary>
 
         <secondary>
             <title>Otros Tutoriales</title>
             <a href="wsl.md" type="library"
-               summary="">Pasaje de archivos entre WSL y Windows</a>
+               summary="Usando el explorador o la terminal">Pasaje de archivos entre WSL y Windows</a>
             <a href="cmake.md" type="library"
                summary="Para generar varios ejecutables en un mismo proyecto">Uso de CMakeLists.txt</a>
         </secondary>
