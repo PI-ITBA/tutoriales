@@ -3,6 +3,7 @@
 Para el uso de **GCC** en **macOS** es necesario un contenedor Linux creado con Docker.
 De esta forma podremos utilizar GCC como si estuviéramos utilizando Linux.
 Para ello necesitamos:
+
 - Instalar **Docker Desktop**
 - Descargar una **imagen de Ubuntu** para usar GCC
 - **Configurar CLion** para que en cada ejecución utilice esa imagen descargada
@@ -26,7 +27,13 @@ Seguir los pasos necesarios para la instalación.
 
 ## Descarga de la imagen de Ubuntu
 
-Una vez instalado Docker, descargar el siguiente archivo de texto 
+<warning>
+A continuación se detalla el proceso de descarga de una imagen que posee los utilitarios necesarios para utilizar GCC
+y CLion. <br />
+<strong>En caso de querer utilizar otro IDE o editor de texto NO es necesario continuar con este tutorial</strong>.
+</warning>
+
+Una vez instalado Docker, descargar el siguiente archivo de texto
 <a href="https://raw.githubusercontent.com/JetBrains/clion-remote/master/Dockerfile.cpp-env-ubuntu">
 **Dockerfile.cpp-env-ubuntu**
 </a>
@@ -63,7 +70,8 @@ python-dev \
 ]]>
 </code-block>
 
-Con la aplicación Docker en ejecución abrir la **Terminal** de macOS y navegar al directorio donde se encuentra el archivo
+Con la aplicación Docker en ejecución abrir la **Terminal** de macOS y navegar al directorio donde se encuentra el
+archivo
 <code>Dockerfile.cpp-env-ubuntu</code>. Ejecutar el siguiente comando:
 
 <code-block>
@@ -72,7 +80,7 @@ docker build -t clion/ubuntu/cpp-env:1.0 -f Dockerfile.cpp-env-ubuntu .
 
 Una vez terminado ya cuenta con la imagen de Ubuntu descargada.
 
-## Registro y Licencia
+## Registro y Licencia de CLion
 
 <snippet id="clion-registro-snippet">
 
@@ -131,7 +139,7 @@ Presionando el botón del engranaje de la parte superior derecha se abrirá un m
 
 <img src="clion-mac-4.png" alt="CLion Mac 4" width="600"/>
 
-En 
+En
 <shortcut>Toolchains</shortcut>
 presionar el botón
 <shortcut>+</shortcut>
@@ -140,7 +148,7 @@ y luego seleccionar
 
 <img src="clion-mac-5.png" alt="CLion Mac 5" width="200"/>
 
-En el campo **Image** asegurarse de elegir 
+En el campo **Image** asegurarse de elegir
 <code>clion/ubuntu/cpp-env:1.0</code>. Debería ver algo así:
 
 <img src="clion-mac-6.png" alt="CLion Mac 6" width="600"/>

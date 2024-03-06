@@ -31,7 +31,13 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 </snippet>
 
-## Registro y Licencia
+## Registro y Licencia de CLion
+
+<warning>
+A continuación se detalla el proceso de registro y licencia de <strong>CLion</strong>, el mismo
+NO está vinculado a la instalación de <strong>GCC</strong>. <br />
+<strong>En caso de querer utilizar otro IDE o editor de texto NO es necesario continuar con este tutorial</strong>.
+</warning>
 
 <include from="gcc-macos.md" element-id="clion-registro-snippet"/>
 
