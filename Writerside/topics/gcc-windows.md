@@ -1,11 +1,11 @@
 # Instalación de GCC y CLion en Windows
 
-Para el uso de **GCC** en **Windows** es necesario una imagen de Linux a través de **Windows Subsystem for Linux (WSL)
-**.
+Para el uso de **GCC** en **Windows** es necesario una imagen de Linux a través de 
+**Windows Subsystem for Linux (WSL)**.
 De esta forma podremos utilizar GCC como si estuviéramos utilizando Linux.
 Para ello necesitamos:
 
-- Instalar **Windows Susbsytem for Linux (WSL)**
+- Instalar **Windows Subsystem for Linux (WSL)**
 - Instalar una **imagen de Ubuntu** para WSL
 - **Configurar CLion** para que en cada ejecución utilice esa imagen descargada
 
