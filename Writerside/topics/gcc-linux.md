@@ -107,7 +107,7 @@ del proyecto que definió más arriba)
 
 <code-block lang="cmake">
 <![CDATA[
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.25)
 project(pi C)
 
 set(CMAKE_C_FLAGS "-Wall -pedantic -std=c23 -lm -g -fsanitize=address")
