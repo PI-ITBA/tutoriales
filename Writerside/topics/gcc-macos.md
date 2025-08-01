@@ -117,7 +117,7 @@ indicar el path donde estará ubicado el proyecto.
 En este ejemplo será `/Users/fmeola/pi`
 
 Y en **Language standard** seleccionar
-<shortcut>C99</shortcut>
+<shortcut>C23</shortcut>
 
 Para crear el proyecto presionar
 <shortcut>Create</shortcut>
@@ -193,7 +193,7 @@ del proyecto que definió más arriba)
 cmake_minimum_required(VERSION 3.16)
 project(pi C)
 
-set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
+set(CMAKE_C_FLAGS "-Wall -pedantic -std=c23 -lm -g -fsanitize=address")
 
 add_executable(pi main.c)
 ]]>
