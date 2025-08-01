@@ -7,11 +7,15 @@
 Para instalar la versión estable más reciente de **GCC** y demás utilitarios necesarios por **CLion** ejecute los siguientes comandos:
 
 <code-block lang="console">
-sudo apt-get update
+sudo apt-get update && sudo apt-get install -y software-properties-common
 </code-block>
 
 <code-block lang="console">
-sudo apt-get install -y build-essential gcc g++ gdb clang make ninja-build cmake autoconf automake libtool valgrind locales-all dos2unix rsync tar python2 python2-dev
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test && sudo apt-get update && sudo apt-get install -y gcc-14 g++-14
+</code-block>
+
+<code-block lang="console">
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 100 && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 100
 </code-block>
 
 Al finalizar la instalación verificar que al invocar a
@@ -23,9 +27,9 @@ gcc --version
 se obtiene una salida similar a la siguiente:
 
 <code-block lang="plain text">
-gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
-Copyright (C) 2021 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions. There is NO
+gcc (Ubuntu 14.2.0-19ubuntu2) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 </code-block>
 
