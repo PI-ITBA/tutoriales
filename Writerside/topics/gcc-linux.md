@@ -18,6 +18,24 @@ sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test && sudo apt-get update &&
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 100 && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 100
 </code-block>
 
+<code-block lang="console">
+sudo apt-get install -y \
+clang \
+make \
+ninja-build \
+cmake \
+autoconf \
+automake \
+libtool \
+valgrind \
+locales-all \
+dos2unix \
+rsync \
+tar \
+python3 \
+python3-dev
+</code-block>
+
 Al finalizar la instalación verificar que al invocar a
 
 <code-block lang="console">
