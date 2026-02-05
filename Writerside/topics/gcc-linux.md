@@ -2,38 +2,20 @@
 
 ## Uso de apt-get
 
+<tip>
+Para este tutorial se utilizó Ubuntu 25.10 Questing
+</tip>
+
 <snippet id="apt-get-snippet">
 
 Para instalar la versión estable más reciente de **GCC** y demás utilitarios necesarios por **CLion** ejecute los siguientes comandos:
 
 <code-block lang="console">
-sudo apt-get update && sudo apt-get install -y software-properties-common
+sudo apt-get update
 </code-block>
 
 <code-block lang="console">
-sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test && sudo apt-get update && sudo apt-get install -y gcc-14 g++-14
-</code-block>
-
-<code-block lang="console">
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 100 && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 100
-</code-block>
-
-<code-block lang="console">
-sudo apt-get install -y \
-clang \
-make \
-ninja-build \
-cmake \
-autoconf \
-automake \
-libtool \
-valgrind \
-locales-all \
-dos2unix \
-rsync \
-tar \
-python3 \
-python3-dev
+sudo apt install -y build-essential gdb cmake ninja-build tzdata
 </code-block>
 
 Al finalizar la instalación verificar que al invocar a
@@ -45,8 +27,8 @@ gcc --version
 se obtiene una salida similar a la siguiente:
 
 <code-block lang="plain text">
-gcc (Ubuntu 14.2.0-19ubuntu2) 14.2.0
-Copyright (C) 2024 Free Software Foundation, Inc.
+gcc (Ubuntu 15.2.0-4ubuntu4) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 </code-block>
@@ -129,10 +111,10 @@ del proyecto que definió más arriba)
 
 <code-block lang="cmake">
 <![CDATA[
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.31)
 project(pi C)
 
-set(CMAKE_C_FLAGS "-Wall -pedantic -std=c23 -lm -g -fsanitize=address")
+set(CMAKE_C_FLAGS "-Wall -Wextra -pedantic -std=c23 -lm -g -fsanitize=address")
 
 add_executable(pi main.c)
 ]]>

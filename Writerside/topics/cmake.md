@@ -14,11 +14,10 @@ en distintas partes del directorio del proyecto:
 
 <code-block lang="cmake">
 <![CDATA[
-
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.31)
 project(pi C)
 
-set(CMAKE_C_FLAGS "-Wall -pedantic -std=c23 -lm -g -fsanitize=address")
+set(CMAKE_C_FLAGS "-Wall -Wextra -pedantic -std=c23 -lm -g -fsanitize=address")
 
 add_executable(pi main.c)
 # Para un ejecutable amigos a partir del main de amigos.c

@@ -33,47 +33,32 @@ y CLion. <br />
 <strong>En caso de querer utilizar otro IDE o editor de texto NO es necesario continuar con este tutorial</strong>.
 </warning>
 
-Una vez instalado Docker, descargar el siguiente archivo de texto
-<a href="https://raw.githubusercontent.com/JetBrains/clion-remote/master/Dockerfile.cpp-env-ubuntu">
-**Dockerfile.cpp-env-ubuntu**
-</a>
-
-Este archivo contiene los comandos para descargar e instalar sobre una imagen de Ubuntu la versión estable más reciente
-de **GCC** y demás utilitarios necesarios por **CLion**:
+Una vez instalado Docker, crearemos un archivo de texto llamado `Dockerfile` (sin extensión)
+que contiene los comandos para descargar e instalar sobre una imagen de Ubuntu la versión estable más reciente
+de **GCC** y demás utilitarios necesarios por **CLion**. Copiar el siguiente contenido en el archivo:
 
 <code-block lang="docker">
 <![CDATA[
 FROM gcc:15
 
-RUN DEBIAN_FRONTEND="noninteractive" apt-get update && apt-get -y install tzdata
+ENV DEBIAN_FRONTEND="noninteractive"
 
-RUN apt-get update \
-&& apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
 gdb \
-clang \
-make \
-ninja-build \
 cmake \
-autoconf \
-automake \
-libtool \
-valgrind \
-locales-all \
-dos2unix \
-rsync \
-tar \
-python3 \
-python3-dev \
-&& apt-get clean
+ninja-build \
+make \
+tzdata \
+&& rm -rf /var/lib/apt/lists/*
 ]]>
 </code-block>
 
 Con la aplicación Docker en ejecución abrir la **Terminal** de macOS y navegar al directorio donde se encuentra el
 archivo
-<code>Dockerfile.cpp-env-ubuntu</code>. Ejecutar el siguiente comando:
+<code>Dockerfile</code>. Ejecutar el siguiente comando:
 
 <code-block>
-docker build -t clion/ubuntu/cpp-env:1.0 -f Dockerfile.cpp-env-ubuntu .
+docker build -t pi:15 -f Dockerfile .
 </code-block>
 
 Una vez terminado ya cuenta con la imagen de Ubuntu descargada.
@@ -147,7 +132,7 @@ y luego seleccionar
 <img src="clion-mac-5.png" alt="CLion Mac 5" width="200"/>
 
 En el campo **Image** asegurarse de elegir
-<code>clion/ubuntu/cpp-env:1.0</code>. Debería ver algo así:
+<code>pi:15</code>. Debería ver algo así:
 
 <img src="clion-mac-6.png" alt="CLion Mac 6" width="600"/>
 
@@ -188,10 +173,10 @@ del proyecto que definió más arriba)
 
 <code-block lang="cmake">
  <![CDATA[
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.31)
 project(pi C)
 
-set(CMAKE_C_FLAGS "-Wall -pedantic -std=c23 -lm -g -fsanitize=address")
+set(CMAKE_C_FLAGS "-Wall -Wextra -pedantic -std=c23 -lm -g -fsanitize=address")
 
 add_executable(pi main.c)
 ]]>
