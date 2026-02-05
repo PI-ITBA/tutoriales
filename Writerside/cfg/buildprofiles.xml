@@ -6,9 +6,9 @@
         <primary-color>blueberry</primary-color>
         <custom-favicons>favicon.png</custom-favicons>
         <header-logo>logo.png</header-logo>
-        <product-web-url>https://github.com/PI-ITBA/2025_02/issues</product-web-url>
+        <product-web-url>https://github.com/PI-ITBA/2026_01/issues</product-web-url>
         <download-title>Consultas</download-title>
-        <download-page>https://github.com/PI-ITBA/2025_02/issues</download-page>
+        <download-page>https://github.com/PI-ITBA/2026_01/issues</download-page>
         <showDownloadButton>true</showDownloadButton>
     </variables>
     <build-profile instance="hi">
@@ -21,7 +21,7 @@
         </variables>
     </build-profile>
     <footer>
-        <copyright>72.31 Programación Imperativa 2025</copyright>
-        <link href="https://github.com/PI-ITBA/2025_02/issues">Consultas</link>
+        <copyright>72.31 Programación Imperativa 2026</copyright>
+        <link href="https://github.com/PI-ITBA/2026_01/issues">Consultas</link>
     </footer>
 </buildprofiles>
