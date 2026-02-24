@@ -42,3 +42,15 @@
 .home-page__product-column {
   background-color: rgba(255, 255, 255, 0.94);
 }
+
+/* Keep card contrast in dark mode */
+:root.theme-dark .section-starting-page-content__section--highlighted {
+  background-color: rgba(9, 48, 83, 0.38);
+}
+
+:root.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card,
+:root.theme-dark .section-starting-page-content__section--highlighted .section-starting-page-content__card:hover,
+:root.theme-dark .home-page__product-column {
+  background-color: rgba(9, 48, 83, 0.78);
+  border-color: rgba(255, 255, 255, 0.18);
+}
