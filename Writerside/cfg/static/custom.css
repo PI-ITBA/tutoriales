@@ -1,9 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Overpass:wght@400;700&display=swap");
 
+/* Global Writerside font variables used by home, menus and topic pages */
+:root {
+  --pi-bg-light: #1076d2;
+  --pi-bg-dark: #093053;
+  --pi-bg-gradient: radial-gradient(circle at 50% 50%, var(--pi-bg-light) 0%, var(--pi-bg-dark) 100%);
+
+  --rs-font-family-ui: "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --rs-font-family-jb-sans: "Lexend";
+  --rs-font-family-headers: "Overpass", "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --wh-color-accent-substrate-bg: var(--pi-bg-dark);
+  --app-header: var(--pi-bg-dark);
+  --app-footer: var(--pi-bg-dark);
+}
+
 .article__p {
-  font-family: "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--rs-font-family-ui);
 }
 
 .title__content {
-  font-family: "Overpass", Georgia, serif;
+  font-family: var(--rs-font-family-headers);
+}
+
+.home-page__content {
+  background: var(--pi-bg-gradient);
+  background-attachment: fixed;
+}
+
+.home-page__header,
+.home-page__footer {
+  background-color: var(--pi-bg-dark);
+}
+
+.section-starting-page-content__section--highlighted {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.section-starting-page-content__section--highlighted .section-starting-page-content__card,
+.section-starting-page-content__section--highlighted .section-starting-page-content__card:hover,
+.home-page__product-column {
+  background-color: rgba(255, 255, 255, 0.94);
 }
