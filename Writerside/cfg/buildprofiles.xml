@@ -3,7 +3,8 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-        <primary-color>blueberry</primary-color>
+        <primary-color>#ec008c</primary-color>
+        <custom-css>custom.css</custom-css>
         <custom-favicons>favicon.png</custom-favicons>
         <header-logo>logo.png</header-logo>
         <product-web-url>https://github.com/PI-ITBA/2026_01/issues</product-web-url>

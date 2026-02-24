@@ -67,10 +67,7 @@ Una vez terminado ya cuenta con la imagen de Ubuntu descargada.
 
 <snippet id="clion-registro-snippet">
 
-**CLion** requiere una licencia. Los alumnos pueden registrarse en
-<a href="https://www.jetbrains.com/shop/eform/students">**Productos JetBrains para el aprendizaje**</a>
-con su mail **@itba.edu.ar** y así obtener una **licencia gratuita** para utilizar CLion y demás aplicaciones
-de JetBrains de forma gratuita.
+**CLion** ofrece una licencia **"Free for non-commercial use"**.
 
 </snippet>
 

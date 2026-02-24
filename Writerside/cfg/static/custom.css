@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Overpass:wght@400;700&display=swap");
+
+.article__p {
+  font-family: "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.title__content {
+  font-family: "Overpass", Georgia, serif;
+}

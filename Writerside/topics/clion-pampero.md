@@ -4,9 +4,8 @@ Con los siguientes pasos podrá configurar **CLion** para que utilice el **GCC d
 Cada vez que se genere un ejecutable los archivos fuentes presentes en el ordenador local se cargarán a un directorio
 de su usuario de Pampero, por lo tanto es necesaria la conexión a internet para esta modalidad.
 
-<warning>Si no cuenta con CLion instalado consulte primero las secciones
+<warning>Si no cuenta con CLion instalado consulte primero la sección
 
-- Registro y Licencia
 - Instalación de CLion usando ToolBox App
 
 del tutorial de **Instalación de GCC y Clion** de su sistema operativo.
